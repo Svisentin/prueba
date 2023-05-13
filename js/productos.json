@@ -1,38 +1,63 @@
 [
+    
     {
-        "id": 1234,
-        "nombre": "NOTEBOOK EXO E17",
-        "precio": 58799.00,
-        "stock": 20
-    },
-    {
-        "id": 2345,
-        "nombre": "NOTEBOOK GAMER ASUS 17",
-        "precio": 588999.00,
+        "id":  1234  , 
+        "nombre": "Silla",
+        "precioUnitario": 588999.00,
         "stock": 32
     },
     {
-        "id": 3456,
-        "nombre": "NOTEBOOK ASUS WORKING 14",
-        "precio": 138889.00,
+        "id":   4567 , 
+        "nombre": "Pechera",
+        "precioUnitario": 58799.00,
+        "stock": 20
+    },
+    {
+        "id":  7890  , 
+        "nombre": "Riñonera",
+        "precioUnitario": 138889.00,
         "stock": 30
     },
     {
-        "id": 4567,
-        "nombre": "MACBOOK AIR 13",
-        "precio": 278500.00,
+        "id": 1987   , 
+        "nombre": "Gorra",
+        "precioUnitario": 278500.00,
         "stock": 26
     },
     {
-        "id": 5678,
-        "nombre": "MACBOOK PRO 14",
-        "precio": 448999.00,
+        "id": 7654   , 
+        "nombre": "Remera",
+        "precioUnitario": 448999.00,
         "stock": 18
     },
     {
-        "id": 6789,
-        "nombre": "IPAD AIR 10.1",
-        "precio": 188499.00,
+        "id":  4321  , 
+        "nombre": "Pantalon",
+        "precioUnitario": 188499.00,
+        "stock": 52
+    },
+    {
+        "id":  1029  , 
+        "nombre": "Guantes",
+        "precioUnitario": 188499.00,
+        "stock": 52
+    },
+    {
+        "id":  2938  , 
+        "nombre": "Bastones",
+        "precioUnitario": 188499.00,
+        "stock": 52
+    },
+    {
+        "id":  3847  , 
+        "nombre": "Cuellos",
+        "precioUnitario": 188499.00,
+        "stock": 52
+    },
+    {
+        "id":  4756  , 
+        "nombre": "Medias",
+        "precioUnitario": 188499.00,
         "stock": 52
     }
 ]
