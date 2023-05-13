@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+p, label {
+  font-family: "open Sans"; 
+  text-align: center;
+  font-size: 1,5em;}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Montserrat;
+  list-style-position: inside; }
+
+  body{
+    height : 100vh;
+    display: flex;
+    flex-flow: column;
+    flex-shrink: 1;
+  }
+  header{
+    height: 40%;
+  }
+  main{
+    height: 60vh;
+    align-content: center;
+  }
+button {
+  color: #ffffff;
+  background-color: #24990a;
+  font-weight: bold;
+  margin: 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem; 
+
+}
+#soloProductos{
+  display: flex;
+  margin-top: 20px;
+}
+#soloProductos div{
+  padding: 15px;
+}
+#soloProductos div:first-child {
+  border-right: 1px solid rgb(185, 183, 183);
+}
+form div{
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-family: "open Sans";
+  text-decoration: none;
+}
+.header__logo {
+  padding-top: 10px;
+  height: 80%;
+  display: block;
+  margin: auto;
+}
+
+.header__menu {
+  background: #000000;
+  margin: auto;
+}
+
+.header__menu li {
+  padding: 5px 10px;
+  transition: background-color 0.4s;
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: #8edb7c;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+
+
+input{
+  margin: 10px;
+  padding: 20px;
+}
+/* ////////////////////HOVER//////////////////// */
+.header__menu li:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.header__menu a:hover {
+  color: #1b4e10;
+}
+
+.header__dropdown li a:hover {
+  color: #ffffff; 
+}
+        
+
+/* ////////////////////////// */
+.card_stock {
+  padding: 10px;
+  color: #ffffff;
+  /* width: 250px; */
+  background: #434242;
+  /* overflow: hidden; */
+  border-radius: 20px;
+  box-shadow: 1px 1px 30px lightgrey; 
+}
+
+.grid_stock {
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(100px, 230px));
+ 
+  padding: 20px;
+    grid-gap: 10px;
+}
+#inicio{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+  box-shadow: 1px 3px 5px rgba(203, 203, 203, 0.324);  
+  border-radius: 50%;
+}
+#inicio img{
+  display: block;
+ 
+  width: 100%;
+}
+
